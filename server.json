@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "fr.amacunia/npdes-permit-expiration-renewal-application-deadline",
+  "title": "NPDES Permit Renewal Sentinel",
+  "description": "When is the renewal application of a US water discharge (NPDES) permit due, and does that date bind?",
+  "version": "0.1.0",
+  "websiteUrl": "https://npdes.amacunia.fr/",
+  "icons": [
+    {
+      "src": "https://npdes.amacunia.fr/icon.png",
+      "mimeType": "image/png",
+      "sizes": ["256x256"]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Marcoco27/npdes-permit-renewal-sentinel-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://npdes.amacunia.fr/mcp"
+    }
+  ]
+}
